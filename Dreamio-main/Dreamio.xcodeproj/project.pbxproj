@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F5CB7FD2D10AFFB0034D366 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3F5CB7FC2D10AFFB0034D366 /* GoogleSignIn */; };
+		3F5CB7FF2D10AFFB0034D366 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F5CB7FE2D10AFFB0034D366 /* GoogleSignInSwift */; };
+		3F5CB8022D10B0440034D366 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5CB8012D10B0440034D366 /* AuthenticationServices.framework */; };
+		3F9FBD732D10841100F24576 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD722D10841100F24576 /* FirebaseAnalytics */; };
+		3F9FBD752D10841100F24576 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD742D10841100F24576 /* FirebaseAnalyticsOnDeviceConversion */; };
+		3F9FBD772D10841100F24576 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD762D10841100F24576 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		3F9FBD792D10841100F24576 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD782D10841100F24576 /* FirebaseAppCheck */; };
+		3F9FBD7B2D10841100F24576 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD7A2D10841100F24576 /* FirebaseAppDistribution-Beta */; };
+		3F9FBD7D2D10841100F24576 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD7C2D10841100F24576 /* FirebaseAuth */; };
+		3F9FBD7F2D10841100F24576 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD7E2D10841100F24576 /* FirebaseAuthCombine-Community */; };
+		3F9FBD812D10841100F24576 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD802D10841100F24576 /* FirebaseCore */; };
+		3F9FBD832D10841100F24576 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD822D10841100F24576 /* FirebaseCrashlytics */; };
+		3F9FBD852D10841100F24576 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD842D10841100F24576 /* FirebaseDatabase */; };
+		3F9FBD872D10841100F24576 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD862D10841100F24576 /* FirebaseDynamicLinks */; };
+		3F9FBD892D10841100F24576 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD882D10841100F24576 /* FirebaseFirestore */; };
+		3F9FBD8B2D10841100F24576 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD8A2D10841100F24576 /* FirebaseFirestoreCombine-Community */; };
+		3F9FBD8D2D10841100F24576 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD8C2D10841100F24576 /* FirebaseFunctions */; };
+		3F9FBD8F2D10841100F24576 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD8E2D10841100F24576 /* FirebaseFunctionsCombine-Community */; };
+		3F9FBD912D10841100F24576 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD902D10841100F24576 /* FirebaseInAppMessaging-Beta */; };
+		3F9FBD932D10841100F24576 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD922D10841100F24576 /* FirebaseInstallations */; };
+		3F9FBD952D10841100F24576 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD942D10841100F24576 /* FirebaseMLModelDownloader */; };
+		3F9FBD972D10841100F24576 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD962D10841100F24576 /* FirebaseMessaging */; };
+		3F9FBD992D10841100F24576 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD982D10841100F24576 /* FirebasePerformance */; };
+		3F9FBD9B2D10841100F24576 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD9A2D10841100F24576 /* FirebaseRemoteConfig */; };
+		3F9FBD9D2D10841100F24576 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD9C2D10841100F24576 /* FirebaseStorage */; };
+		3F9FBD9F2D10841100F24576 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBD9E2D10841100F24576 /* FirebaseStorageCombine-Community */; };
+		3F9FBDA12D10841100F24576 /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = 3F9FBDA02D10841100F24576 /* FirebaseVertexAI */; };
+		DA8BF1566E5314997678C753 /* libPods-Dreamio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3409D636310E3773569F61 /* libPods-Dreamio.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		298AE8842CE8AE0B00C4BF61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 298AE8652CE8AE0A00C4BF61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 298AE86C2CE8AE0A00C4BF61;
+			remoteInfo = Dreamio;
+		};
+		298AE88E2CE8AE0B00C4BF61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 298AE8652CE8AE0A00C4BF61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 298AE86C2CE8AE0A00C4BF61;
+			remoteInfo = Dreamio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E3409D636310E3773569F61 /* libPods-Dreamio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dreamio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		298AE86D2CE8AE0A00C4BF61 /* Dreamio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		298AE8832CE8AE0B00C4BF61 /* DreamioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		298AE88D2CE8AE0B00C4BF61 /* DreamioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5CB8012D10B0440034D366 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		41DA5E28BF67760A9C4DB6AC /* Pods-Dreamio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dreamio.release.xcconfig"; path = "Target Support Files/Pods-Dreamio/Pods-Dreamio.release.xcconfig"; sourceTree = "<group>"; };
+		82451592D11FE1C6DC44E441 /* Pods-Dreamio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dreamio.debug.xcconfig"; path = "Target Support Files/Pods-Dreamio/Pods-Dreamio.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		298AE8952CE8AE0B00C4BF61 /* Exceptions for "Dreamio" folder in "Dreamio" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 298AE86C2CE8AE0A00C4BF61 /* Dreamio */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		298AE86F2CE8AE0A00C4BF61 /* Dreamio */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				298AE8952CE8AE0B00C4BF61 /* Exceptions for "Dreamio" folder in "Dreamio" target */,
+			);
+			path = Dreamio;
+			sourceTree = "<group>";
+		};
+		298AE8862CE8AE0B00C4BF61 /* DreamioTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DreamioTests;
+			sourceTree = "<group>";
+		};
+		298AE8902CE8AE0B00C4BF61 /* DreamioUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DreamioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		298AE86A2CE8AE0A00C4BF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5CB8022D10B0440034D366 /* AuthenticationServices.framework in Frameworks */,
+				3F9FBD8B2D10841100F24576 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				3F9FBDA12D10841100F24576 /* FirebaseVertexAI in Frameworks */,
+				3F9FBD8D2D10841100F24576 /* FirebaseFunctions in Frameworks */,
+				3F9FBD992D10841100F24576 /* FirebasePerformance in Frameworks */,
+				3F9FBD9F2D10841100F24576 /* FirebaseStorageCombine-Community in Frameworks */,
+				3F5CB7FF2D10AFFB0034D366 /* GoogleSignInSwift in Frameworks */,
+				3F9FBD9B2D10841100F24576 /* FirebaseRemoteConfig in Frameworks */,
+				3F9FBD852D10841100F24576 /* FirebaseDatabase in Frameworks */,
+				3F9FBD872D10841100F24576 /* FirebaseDynamicLinks in Frameworks */,
+				3F9FBD792D10841100F24576 /* FirebaseAppCheck in Frameworks */,
+				3F9FBD7D2D10841100F24576 /* FirebaseAuth in Frameworks */,
+				3F9FBD732D10841100F24576 /* FirebaseAnalytics in Frameworks */,
+				3F9FBD892D10841100F24576 /* FirebaseFirestore in Frameworks */,
+				3F9FBD972D10841100F24576 /* FirebaseMessaging in Frameworks */,
+				3F9FBD932D10841100F24576 /* FirebaseInstallations in Frameworks */,
+				3F9FBD8F2D10841100F24576 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				3F5CB7FD2D10AFFB0034D366 /* GoogleSignIn in Frameworks */,
+				3F9FBD7B2D10841100F24576 /* FirebaseAppDistribution-Beta in Frameworks */,
+				3F9FBD772D10841100F24576 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				3F9FBD912D10841100F24576 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				3F9FBD7F2D10841100F24576 /* FirebaseAuthCombine-Community in Frameworks */,
+				3F9FBD832D10841100F24576 /* FirebaseCrashlytics in Frameworks */,
+				3F9FBD952D10841100F24576 /* FirebaseMLModelDownloader in Frameworks */,
+				3F9FBD9D2D10841100F24576 /* FirebaseStorage in Frameworks */,
+				3F9FBD812D10841100F24576 /* FirebaseCore in Frameworks */,
+				3F9FBD752D10841100F24576 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				DA8BF1566E5314997678C753 /* libPods-Dreamio.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298AE8802CE8AE0B00C4BF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298AE88A2CE8AE0B00C4BF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		296722EFE019D055A6A5E9C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82451592D11FE1C6DC44E441 /* Pods-Dreamio.debug.xcconfig */,
+				41DA5E28BF67760A9C4DB6AC /* Pods-Dreamio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		298AE8642CE8AE0A00C4BF61 = {
+			isa = PBXGroup;
+			children = (
+				298AE86F2CE8AE0A00C4BF61 /* Dreamio */,
+				298AE8862CE8AE0B00C4BF61 /* DreamioTests */,
+				298AE8902CE8AE0B00C4BF61 /* DreamioUITests */,
+				3F5CB8002D10B0440034D366 /* Frameworks */,
+				298AE86E2CE8AE0A00C4BF61 /* Products */,
+				296722EFE019D055A6A5E9C6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		298AE86E2CE8AE0A00C4BF61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				298AE86D2CE8AE0A00C4BF61 /* Dreamio.app */,
+				298AE8832CE8AE0B00C4BF61 /* DreamioTests.xctest */,
+				298AE88D2CE8AE0B00C4BF61 /* DreamioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F5CB8002D10B0440034D366 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F5CB8012D10B0440034D366 /* AuthenticationServices.framework */,
+				0E3409D636310E3773569F61 /* libPods-Dreamio.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		298AE86C2CE8AE0A00C4BF61 /* Dreamio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298AE8962CE8AE0B00C4BF61 /* Build configuration list for PBXNativeTarget "Dreamio" */;
+			buildPhases = (
+				34DBC800C45A035A10DD9D47 /* [CP] Check Pods Manifest.lock */,
+				298AE8692CE8AE0A00C4BF61 /* Sources */,
+				298AE86A2CE8AE0A00C4BF61 /* Frameworks */,
+				298AE86B2CE8AE0A00C4BF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				298AE86F2CE8AE0A00C4BF61 /* Dreamio */,
+			);
+			name = Dreamio;
+			packageProductDependencies = (
+				3F9FBD722D10841100F24576 /* FirebaseAnalytics */,
+				3F9FBD742D10841100F24576 /* FirebaseAnalyticsOnDeviceConversion */,
+				3F9FBD762D10841100F24576 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				3F9FBD782D10841100F24576 /* FirebaseAppCheck */,
+				3F9FBD7A2D10841100F24576 /* FirebaseAppDistribution-Beta */,
+				3F9FBD7C2D10841100F24576 /* FirebaseAuth */,
+				3F9FBD7E2D10841100F24576 /* FirebaseAuthCombine-Community */,
+				3F9FBD802D10841100F24576 /* FirebaseCore */,
+				3F9FBD822D10841100F24576 /* FirebaseCrashlytics */,
+				3F9FBD842D10841100F24576 /* FirebaseDatabase */,
+				3F9FBD862D10841100F24576 /* FirebaseDynamicLinks */,
+				3F9FBD882D10841100F24576 /* FirebaseFirestore */,
+				3F9FBD8A2D10841100F24576 /* FirebaseFirestoreCombine-Community */,
+				3F9FBD8C2D10841100F24576 /* FirebaseFunctions */,
+				3F9FBD8E2D10841100F24576 /* FirebaseFunctionsCombine-Community */,
+				3F9FBD902D10841100F24576 /* FirebaseInAppMessaging-Beta */,
+				3F9FBD922D10841100F24576 /* FirebaseInstallations */,
+				3F9FBD942D10841100F24576 /* FirebaseMLModelDownloader */,
+				3F9FBD962D10841100F24576 /* FirebaseMessaging */,
+				3F9FBD982D10841100F24576 /* FirebasePerformance */,
+				3F9FBD9A2D10841100F24576 /* FirebaseRemoteConfig */,
+				3F9FBD9C2D10841100F24576 /* FirebaseStorage */,
+				3F9FBD9E2D10841100F24576 /* FirebaseStorageCombine-Community */,
+				3F9FBDA02D10841100F24576 /* FirebaseVertexAI */,
+				3F5CB7FC2D10AFFB0034D366 /* GoogleSignIn */,
+				3F5CB7FE2D10AFFB0034D366 /* GoogleSignInSwift */,
+			);
+			productName = Dreamio;
+			productReference = 298AE86D2CE8AE0A00C4BF61 /* Dreamio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		298AE8822CE8AE0B00C4BF61 /* DreamioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298AE89B2CE8AE0B00C4BF61 /* Build configuration list for PBXNativeTarget "DreamioTests" */;
+			buildPhases = (
+				298AE87F2CE8AE0B00C4BF61 /* Sources */,
+				298AE8802CE8AE0B00C4BF61 /* Frameworks */,
+				298AE8812CE8AE0B00C4BF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298AE8852CE8AE0B00C4BF61 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				298AE8862CE8AE0B00C4BF61 /* DreamioTests */,
+			);
+			name = DreamioTests;
+			productName = DreamioTests;
+			productReference = 298AE8832CE8AE0B00C4BF61 /* DreamioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		298AE88C2CE8AE0B00C4BF61 /* DreamioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298AE89E2CE8AE0B00C4BF61 /* Build configuration list for PBXNativeTarget "DreamioUITests" */;
+			buildPhases = (
+				298AE8892CE8AE0B00C4BF61 /* Sources */,
+				298AE88A2CE8AE0B00C4BF61 /* Frameworks */,
+				298AE88B2CE8AE0B00C4BF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298AE88F2CE8AE0B00C4BF61 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				298AE8902CE8AE0B00C4BF61 /* DreamioUITests */,
+			);
+			name = DreamioUITests;
+			productName = DreamioUITests;
+			productReference = 298AE88D2CE8AE0B00C4BF61 /* DreamioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		298AE8652CE8AE0A00C4BF61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					298AE86C2CE8AE0A00C4BF61 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					298AE8822CE8AE0B00C4BF61 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 298AE86C2CE8AE0A00C4BF61;
+					};
+					298AE88C2CE8AE0B00C4BF61 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 298AE86C2CE8AE0A00C4BF61;
+					};
+				};
+			};
+			buildConfigurationList = 298AE8682CE8AE0A00C4BF61 /* Build configuration list for PBXProject "Dreamio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 298AE8642CE8AE0A00C4BF61;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3F5CB7FB2D10AFFB0034D366 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 298AE86E2CE8AE0A00C4BF61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				298AE86C2CE8AE0A00C4BF61 /* Dreamio */,
+				298AE8822CE8AE0B00C4BF61 /* DreamioTests */,
+				298AE88C2CE8AE0B00C4BF61 /* DreamioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		298AE86B2CE8AE0A00C4BF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298AE8812CE8AE0B00C4BF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298AE88B2CE8AE0B00C4BF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34DBC800C45A035A10DD9D47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dreamio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		298AE8692CE8AE0A00C4BF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298AE87F2CE8AE0B00C4BF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298AE8892CE8AE0B00C4BF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		298AE8852CE8AE0B00C4BF61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 298AE86C2CE8AE0A00C4BF61 /* Dreamio */;
+			targetProxy = 298AE8842CE8AE0B00C4BF61 /* PBXContainerItemProxy */;
+		};
+		298AE88F2CE8AE0B00C4BF61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 298AE86C2CE8AE0A00C4BF61 /* Dreamio */;
+			targetProxy = 298AE88E2CE8AE0B00C4BF61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		298AE8972CE8AE0B00C4BF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82451592D11FE1C6DC44E441 /* Pods-Dreamio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dreamio/Dreamio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dreamio/Info.plist;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Dreamio uses your sleep data to track your sleep habits.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Dreamio needs access to your sleep data to provide insights.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Dreamio uses your sleep data to track your sleep habits.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team8.Dreamio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		298AE8982CE8AE0B00C4BF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DA5E28BF67760A9C4DB6AC /* Pods-Dreamio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dreamio/Dreamio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dreamio/Info.plist;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Dreamio uses your sleep data to track your sleep habits.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Dreamio needs access to your sleep data to provide insights.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Dreamio uses your sleep data to track your sleep habits.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team8.Dreamio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		298AE8992CE8AE0B00C4BF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		298AE89A2CE8AE0B00C4BF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		298AE89C2CE8AE0B00C4BF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team8.DreamioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dreamio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dreamio";
+			};
+			name = Debug;
+		};
+		298AE89D2CE8AE0B00C4BF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team8.DreamioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dreamio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dreamio";
+			};
+			name = Release;
+		};
+		298AE89F2CE8AE0B00C4BF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team8.DreamioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dreamio;
+			};
+			name = Debug;
+		};
+		298AE8A02CE8AE0B00C4BF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = team8.DreamioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dreamio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		298AE8682CE8AE0A00C4BF61 /* Build configuration list for PBXProject "Dreamio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298AE8992CE8AE0B00C4BF61 /* Debug */,
+				298AE89A2CE8AE0B00C4BF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		298AE8962CE8AE0B00C4BF61 /* Build configuration list for PBXNativeTarget "Dreamio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298AE8972CE8AE0B00C4BF61 /* Debug */,
+				298AE8982CE8AE0B00C4BF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		298AE89B2CE8AE0B00C4BF61 /* Build configuration list for PBXNativeTarget "DreamioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298AE89C2CE8AE0B00C4BF61 /* Debug */,
+				298AE89D2CE8AE0B00C4BF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		298AE89E2CE8AE0B00C4BF61 /* Build configuration list for PBXNativeTarget "DreamioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298AE89F2CE8AE0B00C4BF61 /* Debug */,
+				298AE8A02CE8AE0B00C4BF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F5CB7FB2D10AFFB0034D366 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F5CB7FC2D10AFFB0034D366 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F5CB7FB2D10AFFB0034D366 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		3F5CB7FE2D10AFFB0034D366 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F5CB7FB2D10AFFB0034D366 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		3F9FBD722D10841100F24576 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3F9FBD742D10841100F24576 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		3F9FBD762D10841100F24576 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		3F9FBD782D10841100F24576 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		3F9FBD7A2D10841100F24576 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		3F9FBD7C2D10841100F24576 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3F9FBD7E2D10841100F24576 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		3F9FBD802D10841100F24576 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		3F9FBD822D10841100F24576 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		3F9FBD842D10841100F24576 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		3F9FBD862D10841100F24576 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		3F9FBD882D10841100F24576 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3F9FBD8A2D10841100F24576 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		3F9FBD8C2D10841100F24576 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		3F9FBD8E2D10841100F24576 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		3F9FBD902D10841100F24576 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		3F9FBD922D10841100F24576 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		3F9FBD942D10841100F24576 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		3F9FBD962D10841100F24576 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		3F9FBD982D10841100F24576 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		3F9FBD9A2D10841100F24576 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		3F9FBD9C2D10841100F24576 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		3F9FBD9E2D10841100F24576 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		3F9FBDA02D10841100F24576 /* FirebaseVertexAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F9FBD712D10841100F24576 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseVertexAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 298AE8652CE8AE0A00C4BF61 /* Project object */;
+}

@@ -1,0 +1,5 @@
+platform :ios, '13.0'
+
+target 'Dreamio' do
+  pod 'Charts'
+end

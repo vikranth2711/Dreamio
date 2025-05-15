@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="24D70" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="MusicEntity" representedClassName="MusicEntity" syncable="YES">
+        <attribute name="descriptions" optional="YES" attributeType="String"/>
+        <attribute name="fileName" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="musicID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="playlistTracks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PlaylistTrack" inverseName="music" inverseEntity="PlaylistTrack"/>
+    </entity>
+    <entity name="PlaylistEntity" representedClassName="PlaylistEntity" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="tracks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PlaylistTrack" inverseName="playlist" inverseEntity="PlaylistTrack"/>
+    </entity>
+    <entity name="PlaylistTrack" representedClassName="PlaylistTrack" syncable="YES">
+        <attribute name="volume" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="music" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MusicEntity" inverseName="playlistTracks" inverseEntity="MusicEntity"/>
+        <relationship name="playlist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlaylistEntity" inverseName="tracks" inverseEntity="PlaylistEntity"/>
+    </entity>
+    <entity name="UserEntity" representedClassName="UserEntity" syncable="YES">
+        <attribute name="bedtime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="emailID" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="streak" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userGender" optional="YES" attributeType="String"/>
+        <attribute name="userID" optional="YES" attributeType="String"/>
+        <attribute name="wakeupTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+</model>
